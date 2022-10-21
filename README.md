@@ -37,6 +37,8 @@ Git, Celery, Docker, фреймворки Django, Django REST framework.
 - 2022, ООО “Нетология”, Python-разработчик с нуля (программа курса по [ссылке](https://netology.ru/programs/python)), 
 диплом о профессиональной переподготовке. <!-- ([ссылка]()). -->
 
+- 2022, HackerRank, Rest API (Intermediate) Certificate ([ссылка](https://www.hackerrank.com/certificates/a7b31380e4b7)).
+
 - 2022, ООО “Нетология”, ETL-разработчик (программа курса по [ссылке](https://netology.ru/programs/etl-developer)), 
 удостоверение о повышении квалификации. <!-- ([ссылка](https://drive.google.com/file/d/143MDuKVVKvtsMMb3BpjRCVDtKbibAxMW/view?usp=sharing)). -->
 
