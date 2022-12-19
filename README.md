@@ -6,11 +6,6 @@
 
 Также интересуюсь **Data Engineering**, знаю SQL, понимаю процессы ETL.
 
-### Мои контакты: 
-
-- email: nina.speranskaya35@gmail.com
-- Telegram: [@Hunteena](https://t.me/Hunteena)
-
 
 ### Завершённые проекты
 
@@ -77,3 +72,10 @@ _2018, Coursera Inc, Stanford University_
 ### Достижения
 
 - Участие в финале Кубка Яндекса по программированию 2022 (Алгоритмы: Марафон)
+
+### Контакты: 
+
+- email: nina.speranskaya35@gmail.com
+- Telegram: [@Hunteena](https://t.me/Hunteena)
+
+
