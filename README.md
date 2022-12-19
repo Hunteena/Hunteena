@@ -32,7 +32,7 @@ Git, Celery, Docker, фреймворки Django, Django REST framework, Pytest.
 (учебный проект в Нетологии по направлению «Аналитика») 
 
   * **Задача**:  
-  создание таблицы измерений и таблицы фактов на основе базы данных ([описание базы данных](https://drive.google.com/file/d/1-4Ue94fEosxeunO7tGl6KId7WvrB0rpc/view?usp=sharing)).
+  создание таблицы измерений и таблицы фактов на основе базы данных ([описание базы данных](https://edu.postgrespro.ru/bookings.pdf)).
 
   * **Используемые технологии**:  
   SQL, PostgreSQL, DBeaver, Pentaho, Git.
