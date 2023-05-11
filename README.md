@@ -14,7 +14,7 @@
 * **Индивидуально**  
 
   * **Сайт аренды квартир**   
-    *Стек: Django/DRF, Swagger, Docker, Git/GitHub.*  
+    *Стек: Django/DRF, Swagger, PostgreSQL, Docker, Git/GitHub.*  
     [Ссылка на репозиторий](https://github.com/Hunteena/apartmentsNN)   
     <details><summary>Подробнее</summary>    
     
@@ -30,7 +30,7 @@
     
 * **В команде** 
   * **Сайт благотворительного центра**    
-    *Стек: Django/DRF, Celery, Swagger, Docker, Git/GitLab.*  
+    *Стек: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
     [Описание проекта на Behance](https://www.behance.net/gallery/168737717/solnechnyj-krug)  
     <details><summary>Подробнее</summary>        
     
@@ -41,7 +41,7 @@
     </details>  
   
   * **Сайт карточной игры Twelve**  
-    *Стек: Django/DRF, Pytest, Swagger, Docker, Git/GitHub.*  
+    *Стек: Django/DRF, Pytest, Swagger, PostgreSQL, Docker, Git/GitHub.*  
     [Ссылка на репозиторий](https://github.com/apodisation13/cardgame)  
     <details><summary>Подробнее</summary>     
     
@@ -118,21 +118,21 @@
 * **Направление «Программирование»**  
 
   * **API сервиса заказа товаров для розничных сетей**  
-    *Стек: Django/DRF, Pytest, Swagger, Celery, Docker, Git/GitHub.*  
+    *Стек: Django/DRF, Pytest, Swagger, PostgreSQL, Celery, Docker, Git/GitHub.*  
     [Ссылка на репозиторий](https://github.com/Hunteena/python-final-diplom)  
     <details><summary>Подробнее</summary>
     REST API (backend) сервиса для автоматизации закупок в розничной сети с товарами от нескольких поставщиков.
     </details>
   
   * **API сайта объявлений**  
-    *Стек: Flask, SQLAlchemy, Celery, Docker, Git/GitHub.*  
+    *Стек: Flask, SQLAlchemy, Celery, PostgreSQL, Docker, Git/GitHub.*  
     [Ссылка на репозиторий](https://github.com/Hunteena/hw_celery)  
     <details><summary>Подробнее</summary>
     REST API (backend) сайта объявлений с авторизацией пользователей и возможностью почтовой рассылки.
     </details>
   
   * **Star Wars & Asyncio**  
-    *Стек: Asyncio, SQLAlchemy, Git/GitHub.*  
+    *Стек: Asyncio, SQLAlchemy, PostgreSQL, Git/GitHub.*  
     [Ссылка на репозиторий](https://github.com/Hunteena/hw_asyncio)  
     <details><summary>Подробнее</summary>
     Асинхронная выгрузка из Star Wars API персонажей Start Wars и их асинхронная загрузка в базу данных.
@@ -184,7 +184,7 @@ _2018, Coursera Inc, Stanford University_
 
 ## Достижения
 
-- Участие в финале Кубка Яндекса по программированию 2022 (Алгоритмы: Марафон)
+- Прошла в финал Кубка Яндекса по программированию 2022 (Алгоритмы: Марафон)
 
 ## Контакты: 
 
