@@ -63,7 +63,88 @@
   
 ### Тестовые задания
 
+* **Simple RESTful API for a social networking application**  
+  *Stack: Python 3.11, FastAPI, SQL, PostgreSQL, Swagger, Docker.*
+  <details><summary>Task</summary>  
+
+  * There should be some form of authentication and registration (JWT, Oauth, Oauth 2.0, etc..)  
+  * As a user I need to be able to signup and login  
+  * As a user I need to be able to create, edit, delete and view posts  
+  * As a user I can like or dislike other users’ posts but not my own  
+  * The API needs a UI Documentation (Swagger/ReDoc)  
+
+  </details>    
+  
+  [Solution](https://github.com/Hunteena/simple_social_network) 
+
+* **Тестовое задание с ипользованием библиотеки Pandas**  
+  *Стек: Python 3.11, Pandas, Jupiter Notebook.*
+  
+  <details><summary>Задание</summary>  
+
+  Время на выполнение задания:
+  одни сутки (до 24ч) с момента получения задания и до момента отправки решения задания менеджеру в чат.
+  
+  * Найти тариф стоимости доставки для каждого склада
+  * Найти суммарное количество , суммарный доход , суммарный расход и суммарную прибыль для каждого товара (представить как таблицу со столбцами 'product', 'quantity', 'income', 'expenses', 'profit')
+  * Составить табличку со столбцами 'order_id' (id заказа) и 'order_profit' (прибыль полученная с заказа). А также вывести среднюю прибыль заказов
+  * Составить табличку типа 'warehouse_name' , 'product','quantity', 'profit', 'percent_profit_product_of_warehouse' (процент прибыли продукта заказанного из определенного склада к прибыли этого склада)
+  * Взять предыдущую табличку и отсортировать 'percent_profit_product_of_warehouse' по убыванию, после посчитать накопленный процент. Накопленный процент - это новый столбец в этой табличке, который должен называться 'accumulated_percent_profit_product_of_warehouse'. По своей сути это постоянно растущая сумма отсортированного по убыванию столбца 'percent_profit_product_of_warehouse'.
+  * Присвоить A,B,C - категории на основании значения накопленного процента ('accumulated_percent_profit_product_of_warehouse'). Если значение накопленного процента меньше или равно 70, то категория A.  
+Если от 70 до 90 (включая 90), то категория Б. Остальное - категория C. Новый столбец обозначить в таблице как 'category'
+
+  <details><summary>Объяснение полей</summary>
+   
+    ```python
+    {
+    "order_id": 85787,	# уникальный id заказа  ( int, варьируется в пределах (100, 100000))
+    "warehouse_name": "хутор близ Диканьки",	# склад откуда отправился заказ (str)
+    "highway_cost": -90,	# стоимость доставки заказа (суммарная стоимости доставки всех продуктов) (int)
+    "products": [		# продукты входящие в заказ
+    {
+    "product": "зеленая пластинка",		# наименования продукта (str)
+    "price": 10,	# цена продажи за единицу товара	(int)
+    "quantity": 3	# количество проданного товара	(int)
+    },
+    {
+    "product": "зеленая пластинка",	# наименования продукта (str)
+    "price": 10,	# цена продажи за единицу товара	(int)
+    "quantity": 2	# количество проданного товара (int)
+    },
+    {
+    "product": "билет в Израиль",	# наименования продукта (str)
+    "price": 1000,	# цена продажи за единицу товара	(int)
+    "quantity": 1	# количество проданного товара (int)
+    }
+    ]
+    },
+    ```
+  </details>
+  <details><summary>Объяснение highway_cost (стоимости доставки)</summary>  
+   
+    Когда заказ доставляется из склада, то списывается стоимость доставки. У каждого склада есть определенный тариф, определяющий стоимость доставки. Это тариф имеет размерность стоимость доставки на единицу товара.  
+    Например для склада "гиперборея" стоимость тарифа составляет 20 рублей на единицу товара.
+    Причем тариф не зависит от того какой именно товар мы заказали. Так, если мы заказали 5 зеленых пластинок и 3 билета в Израиль, то стоимость тарифа будет 20*(5+3) = 160 рублей.
+  </details>
+  <details><summary>Уточнение по виду отчета</summary>  
+   
+    В поле "products" не обязательно могут быть только уникальные значения наименовая товаров ("product"). Иногда (как в примере выше) названия товаров могут повторяться в поле "products".  
+    Однако поле "products" не может быть пустым
+  </details>
+  <details><summary>Дополнительное пояснение</summary>  
+   
+    доходом с товара является цена продажи * количество товара  
+    расходом является тариф для данного склада * количество товара  
+    прибылью является доход - расход
+  </details> 
+  
+  </details>  
+  
+  [Решение](https://github.com/Hunteena/pandas/blob/main/Pandas.ipynb)  
+
 * **Поиск пути между страницами Википедии**  
+  *Стек: Python 3.11, requests, beautiful soup, Wiki API.*
+  
   <details><summary>Задание</summary>  
 
   * входные данные: 2 ссылки на wikipedia (можно из файла, можно из консоли вводить)
@@ -74,35 +155,38 @@
   * отображать это можно как в консоли, так и в web
   * дополнительно можно вести лог файл со всеми страницами, что были посещены при поиске
   
-  *Пример работы*  
-
-  исходные ссылки:  
-  стартовая - https://ru.wikipedia.org/wiki/Xbox_360_S  
-  конечная - https://ru.wikipedia.org/wiki/Nintendo_3DS
-
-  ожидаемый вывод:  
-  1------------------------  
-  И 15 июня 2010 года Microsoft подтвердили их на выставке E³, объявив о прекращении производства старых версий Xbox 360 и скором старте продаж усовершенствованной версии консоли.
-  https://ru.wikipedia.org/wiki/Electronic_Entertainment_Expo  
-  2-------------------------  
-  Это совпало с появлением нового поколения консолей, в частности с выпуском Sega Saturn, и анонсами предстоящих релизов PlayStation, Virtual Boy и Neo Geo CD.
-  https://ru.wikipedia.org/wiki/Virtual_Boy  
-  3-------------------------  
-  Стереоскопическая технология в игровых приставках вновь появилась в более поздние годы и имела больший успех, включая портативную игровую приставку Nintendo 3DS
-  https://ru.wikipedia.org/wiki/Nintendo_3DS  
-
-  результат работы:
-  github + readme файл с описание логики
-  либо файл скрипта + readme файл с описание логики
+    <details><summary>Пример работы</summary>  
+  
+    исходные ссылки:  
+    стартовая - https://ru.wikipedia.org/wiki/Xbox_360_S  
+    конечная - https://ru.wikipedia.org/wiki/Nintendo_3DS
+  
+    ожидаемый вывод:
+    ```
+    1------------------------  
+    И 15 июня 2010 года Microsoft подтвердили их на выставке E³, объявив о прекращении производства старых версий Xbox 360 и скором старте продаж усовершенствованной версии консоли.
+    https://ru.wikipedia.org/wiki/Electronic_Entertainment_Expo  
+    2-------------------------  
+    Это совпало с появлением нового поколения консолей, в частности с выпуском Sega Saturn, и анонсами предстоящих релизов PlayStation, Virtual Boy и Neo Geo CD.
+    https://ru.wikipedia.org/wiki/Virtual_Boy  
+    3-------------------------  
+    Стереоскопическая технология в игровых приставках вновь появилась в более поздние годы и имела больший успех, включая портативную игровую приставку Nintendo 3DS
+    https://ru.wikipedia.org/wiki/Nintendo_3DS  
+    ```
+  
+    результат работы:
+    github + readme файл с описание логики
+    либо файл скрипта + readme файл с описание логики
+    </details>
 
   </details>  
 
-  *Стек: Python 3.11, requests, beautiful soup, Wiki API.*
-  
   [Решение](https://github.com/Hunteena/wikipath)  
 
 
 * **Тестовое задание по графовым базам данных**  
+  *Стек: Neo4j, cypher, Jupiter Notebook, Flask.*
+  
   <details><summary>Задание</summary>  
 
   * Установить графовую базу из списка https://db-engines.com/en/ranking/graph+dbms  
@@ -118,8 +202,6 @@
   * Срок выполнения задания - около 10 дней, если вы не успеваете можете взять больше времени
 
   </details>  
-  
-  *Стек: Neo4j, cypher, Jupiter Notebook, Flask.*
   
   [Решение](https://github.com/Hunteena/neo4j)  
 
