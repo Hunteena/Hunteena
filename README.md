@@ -5,12 +5,60 @@
 Я **Python-разработчик** с опытом разработки бэкенда во фреймворках Django/DRF и FastAPI с использованием PostgreSQL, Swagger, Celery (Redis), Git, Docker. 
 
 Также интересуюсь **Data Engineering**, знаю SQL, понимаю процессы ETL.
-
-
+ 
 ## Проекты:
 
-
 ### Backend сайтов
+  
+<details>
+
+<summary>Развернуть</summary>
+
+* **В команде**
+
+  * **Сайт центра для слабовидящих**    
+    *Стек: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
+    [Сайт проекта](https://ano-mira.ru/) 
+    <details><summary>Подробнее</summary>        
+    
+    Проекты, документы, новости, полезные материалы, команда.  
+    Фильтры, поиск.  
+    Настройка административной панели.  
+    Деплой на сервер.
+    </details>  
+ 
+  * **Сайт добрых новостей**    
+    *Стек: FastAPI, Swagger, SQL, PostgreSQL, Docker, Git/GitLab.*  
+    [Сайт проекта](https://good-deeds-news.com/)  
+    <details><summary>Подробнее</summary>        
+    
+    Микросервисная архитектура.  
+    Регистрация пользователей.  
+    Статьи, документы, новости, команда, добровольцы.  
+    Фильтры, поиск.  
+    Разные уровни доступа: для админов, модераторов, обычных пользователей.
+    </details>  
+
+  * **Сайт благотворительного центра**    
+    *Стек: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
+    [Сайт проекта](https://slkrug.ru/)  
+    [Описание проекта на Behance](https://www.behance.net/gallery/168737717/solnechnyj-krug)  
+    <details><summary>Подробнее</summary>        
+        
+    Изменяемая информация о центре: новости, сборы, волонтёры, проекты.  
+    Личный кабинет пользователя.  
+    Интернет-магазин благотворительных товаров.  
+    </details>  
+  
+  * **Сайт карточной игры Twelve**  
+    *Стек: Django/DRF, Pytest, Swagger, PostgreSQL, Docker, Git/GitHub.*  
+    [Сайт проекта](https://card-game.ru)  
+    [Ссылка на репозиторий](https://github.com/apodisation13/cardgame)   
+    <details><summary>Подробнее</summary>     
+        
+    Коллекционная карточная игра    
+    </details>
+
 * **Индивидуально**  
 
   * **Сайт аренды квартир**   
@@ -28,52 +76,13 @@
     В дальнейшем планируется деплой на сервер всего проекта и CI/CD.  
     </details>
 
-    
-* **В команде**
+</details>
 
-  * **Сайт для некоммерческого центра**    
-    *Стек: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
-    <details><summary>Подробнее</summary>        
-    
-    (Сайт в процессе разработки)  
-    Проекты, документы, новости. Фильтры, поиск.  
-    Настройка административной панели.  
-    Деплой на сервер
-    </details>  
-
-  * **Сайт для некоммерческих фондов**    
-    *Стек: FastAPI, Swagger, PostgreSQL, Docker, Git/GitLab.*  
-    <details><summary>Подробнее</summary>        
-    
-    (Сайт в процессе разработки)  
-    Микросервисная архитектура.  
-    Регистрация фондов и пользователей.  
-    Статьи, документы, новости. Фильтры, поиск.  
-    Разные уровни доступа: для админов, модераторов конкретного фонда, обычных пользователей.
-    </details>  
-
-  * **Сайт благотворительного центра**    
-    *Стек: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
-    [Сайт проекта](https://slkrug.ru/)  
-    [Описание проекта на Behance](https://www.behance.net/gallery/168737717/solnechnyj-krug)  
-    <details><summary>Подробнее</summary>        
-    
-    (Сайт в процессе разработки)  
-    Изменяемая информация о центре: новости, сборы, волонтёры, проекты.  
-    Личный кабинет пользователя.  
-    Интернет-магазин благотворительных товаров.  
-    </details>  
-  
-  * **Сайт карточной игры Twelve**  
-    *Стек: Django/DRF, Pytest, Swagger, PostgreSQL, Docker, Git/GitHub.*  
-    [Ссылка на репозиторий](https://github.com/apodisation13/cardgame)  
-    <details><summary>Подробнее</summary>     
-    
-    [card-game.ru](https://card-game.ru)  
-    Коллекционная карточная игра    
-    </details>
-  
 ### Тестовые задания
+
+<details>
+
+<summary>Развернуть</summary>
 
 * **Калькулятор с использованием только сложения и вычитания**  
   *Стек: Python 3.9, Pytest, Poetry.*
@@ -250,9 +259,14 @@
   
   [Решение](https://github.com/Hunteena/neo4j)  
 
+</details>
 
 
 ### Учебные проекты в Нетологии
+
+<details>
+
+<summary>Развернуть</summary>
 
 * **Направление «Программирование»**  
 
@@ -294,7 +308,8 @@
     <details><summary>Подробнее</summary>
     Получение информации из базы данных об авиаперелётах с помощью SQL-запросов разного уровня сложности (подзапросы, CTE / обобщённые табличные выражения, материализованные представления).
     </details>
-  
+
+</details>
 
 ## Дипломы и сертификаты
 
