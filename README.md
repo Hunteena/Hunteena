@@ -8,6 +8,25 @@
  
 ## Проекты:
 
+### Python-разработка
+
+<details>
+
+<summary>Развернуть</summary>
+
+* **Автоматизация взаимодействия с маркетплейсом Wildberries**    
+    *Стек:  Django, Celery, PostgreSQL, Docker, Nginx, Git/GitHub, Wildberries API, Telegram API.*  
+     
+    <details><summary>Подробнее</summary>        
+    
+    API-бот для автоматизации обработки заказов.   
+    API-бот для запуска/остановки рекламных кампаний по расписанию.  
+    Telegram-бот для уведомлений.  
+    Деплой и поддержка проекта.  
+    </details>  
+
+</details>
+
 ### Backend сайтов
   
 <details>
@@ -16,6 +35,17 @@
 
 * **В команде**
 
+  * **Внутренняя CRM-система**    
+    *Стек:  FastAPI, Swagger, SQL(PostgreSQL), Docker, Git/GitLab, S3 API.*  
+     
+    <details><summary>Подробнее</summary>        
+    
+    Разработка схемы БД.  
+    SQL без ORM.  
+    Unit of Work, хранение файлов в S3.  
+    Настройка Docker для локальной и прод-среды.  
+    </details>  
+ 
   * **Сайт центра для слабовидящих**    
     *Стек: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
     [Сайт проекта](https://ano-mira.ru/) 
