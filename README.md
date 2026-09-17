@@ -1,171 +1,172 @@
-## Добрый день!
+[🇷🇺 Читать на русском](README_RU.md)
 
-Будем знакомы, меня зовут Нина Сперанская. 👋
+## Hello!
 
-Я **Python-разработчик** с опытом разработки бэкенда во фреймворках Django/DRF и FastAPI с использованием PostgreSQL, Swagger, Celery (Redis), Git, Docker. 
+Nice to meet you, my name is Nina Speranskaya. 👋
 
-Также интересуюсь **Data Engineering**, знаю SQL, понимаю процессы ETL.
+I am a **Python Developer** experienced in backend development using Django/DRF and FastAPI, with PostgreSQL, Swagger, Celery (Redis), Git, and Docker. 
+
+I am also interested in **Data Engineering**, know SQL, and understand ETL processes.
  
-## Проекты:
+## Projects:
 
-### Пет-проекты
+### Pet Projects
 
 <details>
 
-<summary>Развернуть</summary>
+<summary>Expand</summary>
 
-* **Лучший подарок 🎁**    
-    *Стек:  Python, Flask, SQLAlchemy, Docker, Git/GitHub, Telegram API.*  
+* **Best Gift 🎁**    
+    *Stack: Python, Flask, SQLAlchemy, Docker, Git/GitHub, Telegram API.*  
      
-    <details><summary>Подробнее</summary>        
+    <details><summary>Details</summary>        
     
-    Приложение для создания вишлистов с возможностью для дарителей резервировать подарки на себя.   
-    Применяю на практике подходы, описанные в книге [Architecture Patterns with Python by Harry Percival, Bob Gregory](https://www.cosmicpython.com/) (DDD, TDD и другие DD 😉). 
-    А также изучаю возможности AI-assisted coding с Cursor.
+    A wishlist application that allows gift-givers to reserve gifts for themselves.  
+    Applying architectural approaches from the book [Architecture Patterns with Python by Harry Percival, Bob Gregory](https://www.cosmicpython.com/) (DDD, TDD, and other DDs 😉).  
+    Also exploring AI-assisted coding capabilities with Cursor.
     </details>  
 
-    [Репозиторий](https://github.com/Hunteena/best-gift) 
+    [Repository](https://github.com/Hunteena/best-gift) 
 
 </details>
 
-### Python-разработка
+### Python Development
 
 <details>
 
-<summary>Развернуть</summary>
+<summary>Expand</summary>
 
-* **Автоматизация взаимодействия с маркетплейсом Wildberries**    
-    *Стек:  Django, Celery, PostgreSQL, Docker, Nginx, Git/GitHub, Wildberries API, Telegram API.*  
+* **Wildberries Marketplace Automation**    
+    *Stack: Django, Celery, PostgreSQL, Docker, Nginx, Git/GitHub, Wildberries API, Telegram API.*  
      
-    <details><summary>Подробнее</summary>        
+    <details><summary>Details</summary>        
     
-    API-бот для автоматизации обработки заказов.   
-    API-бот для запуска/остановки рекламных кампаний по расписанию.  
-    Административная панель с доступом по ролям для управления API-ботами.  
-    Telegram-бот для уведомлений.  
-    Деплой и поддержка проекта.  
+    API bot for automated order processing.   
+    API bot for scheduling the launch/pause of advertising campaigns.  
+    Role-based administrative panel to manage API bots.  
+    Telegram bot for notifications.  
+    Deployment and project maintenance.  
     </details>  
 
 </details>
 
-### Backend сайтов
+### Web Backend
   
 <details>
 
-<summary>Развернуть</summary>
+<summary>Expand</summary>
 
-* **В команде**
+* **Team Projects**
 
-  * **Внутренняя CRM-система**    
-    *Стек:  FastAPI, Swagger, SQL(PostgreSQL), Docker, Git/GitLab, S3 API.*  
+  * **Internal CRM System**    
+    *Stack: FastAPI, Swagger, SQL (PostgreSQL), Docker, Git/GitLab, S3 API.*  
      
-    <details><summary>Подробнее</summary>        
+    <details><summary>Details</summary>        
     
-    Разработка схемы БД.  
-    SQL без ORM.  
-    Unit of Work, хранение файлов в S3.  
-    Настройка Docker для локальной и прод-среды.  
+    Database schema design.  
+    Raw SQL without ORM.  
+    Unit of Work pattern, file storage in S3.  
+    Docker configuration for local and production environments.  
     </details>  
  
-  * **Сайт центра для слабовидящих**    
-    *Стек: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
-    [Сайт проекта](https://ano-mira.ru/) 
-    <details><summary>Подробнее</summary>        
+  * **Center for the Visually Impaired Website**    
+    *Stack: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
+    [Project Website](https://ano-mira.ru/) 
+    <details><summary>Details</summary>        
     
-    Проекты, документы, новости, полезные материалы, команда.  
-    Фильтры, поиск.  
-    Настройка административной панели.  
-    Деплой на сервер.
+    Projects, documents, news, educational materials, team.  
+    Filters and search.  
+    Admin panel configuration.  
+    Server deployment.
     </details>  
  
-  * **Сайт добрых новостей**    
-    *Стек: FastAPI, Swagger, SQL, PostgreSQL, Docker, Git/GitLab.*  
-    [Сайт проекта](https://good-deeds-news.com/)  
-    <details><summary>Подробнее</summary>        
+  * **Good Deeds News Website**    
+    *Stack: FastAPI, Swagger, SQL, PostgreSQL, Docker, Git/GitLab.*  
+    [Project Website](https://good-deeds-news.com/)  
+    <details><summary>Details</summary>        
     
-    Микросервисная архитектура.  
-    Регистрация пользователей.  
-    Статьи, документы, новости, команда, добровольцы.  
-    Фильтры, поиск.  
-    Разные уровни доступа: для админов, модераторов, обычных пользователей.
+    Microservices architecture.  
+    User registration and authentication.  
+    Articles, documents, news, team, volunteers.  
+    Filters and search.  
+    Role-based access levels: administrators, moderators, regular users.
     </details>  
 
-  * **Сайт благотворительного центра**    
-    *Стек: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
-    [Сайт проекта](https://slkrug.ru/)  
-    [Описание проекта на Behance](https://www.behance.net/gallery/168737717/solnechnyj-krug)  
-    <details><summary>Подробнее</summary>        
+  * **Charity Center Website**    
+    *Stack: Django/DRF, Celery, Swagger, PostgreSQL, Docker, Git/GitLab.*  
+    [Project Website](https://slkrug.ru/)  
+    [Project on Behance](https://www.behance.net/gallery/168737717/solnechnyj-krug)  
+    <details><summary>Details</summary>        
         
-    Изменяемая информация о центре: новости, сборы, волонтёры, проекты.  
-    Личный кабинет пользователя.  
-    Интернет-магазин благотворительных товаров.  
+    Dynamic center information: news, fundraisers, volunteers, projects.  
+    User account area.  
+    E-commerce store for charitable goods.  
     </details>  
   
-  * **Сайт карточной игры Twelve**  
-    *Стек: Django/DRF, Pytest, Swagger, PostgreSQL, Docker, Git/GitHub.*  
-    [Сайт проекта](https://card-game.ru)  
-    [Ссылка на репозиторий](https://github.com/apodisation13/cardgame)   
-    <details><summary>Подробнее</summary>     
+  * **Twelve Card Game Website**  
+    *Stack: Django/DRF, Pytest, Swagger, PostgreSQL, Docker, Git/GitHub.*  
+    [Project Website](https://card-game.ru)  
+    [Repository Link](https://github.com/apodisation13/cardgame)   
+    <details><summary>Details</summary>     
         
-    Коллекционная карточная игра    
+    Collectible card game.    
     </details>
 
-* **Индивидуально**  
+* **Individual Projects**  
 
-  * **Сайт аренды квартир**   
-    *Стек: Django/DRF, Pytest, Swagger, PostgreSQL, Docker, Git/GitHub.*  
-    [Ссылка на репозиторий](https://github.com/Hunteena/apartmentsNN)   
-    <details><summary>Подробнее</summary>    
+  * **Apartment Rental Website**   
+    *Stack: Django/DRF, Pytest, Swagger, PostgreSQL, Docker, Git/GitHub.*  
+    [Repository Link](https://github.com/Hunteena/apartmentsNN)   
+    <details><summary>Details</summary>    
     
-    (Сайт в процессе разработки)  
-    Возможность оставить онлайн-заявку.  
-    Подробная административная панель.  
-    Отправка почты.
-    Логирование, задачи по расписанию.  
-    Docker для локального развёртывания проекта (для фронтенда).  
-    Unit-тестирование API с помощью Pytest.  
-    В дальнейшем планируется деплой на сервер всего проекта и CI/CD.  
+    (Website in development)  
+    Online booking/inquiry submission.  
+    Comprehensive administration panel.  
+    Email notifications.  
+    Logging and scheduled background tasks.  
+    Docker for local deployment (for frontend).  
+    API unit testing with Pytest.  
+    Full project server deployment and CI/CD planned for the future.  
     </details>
 
 </details>
 
-### Тестовые задания
+### Coding Challenges & Test Tasks
 
 <details>
 
-<summary>Развернуть</summary>
+<summary>Expand</summary>
 
-* **Калькулятор с использованием только сложения и вычитания**  
-  *Стек: Python 3.9, Pytest, Poetry.*
+* **Calculator Using Only Addition and Subtraction**  
+  *Stack: Python 3.9, Pytest, Poetry.*
   
-  <details><summary>Задание</summary>  
+  <details><summary>Task Description</summary>  
   
-  * Базовые функции:
-    - `+`  сложение,
-    - `-` вычитание, 
-    - `/` деление,
-    - `*` умножение,
-    - `%` остаток от деления,
-    - `^x` возведение в степень,
-    - `x^1/2` извлечение квадратного корня,
-    - решение простых уравнений с одним неизвестным, например, `2 + x = 14`  
+  * Basic functions:
+    - `+` addition,
+    - `-` subtraction, 
+    - `/` division,
+    - `*` multiplication,
+    - `%` modulo,
+    - `^x` exponentiation,
+    - `x^1/2` square root,
+    - solving linear equations with one unknown, e.g., `2 + x = 14`  
         
-  * Требования:
-    - Используем Python 3.9
-    - Использование библиоттек запрещено (в т.ч. импорты базовых модулей по типу decimal или math).
-    - Допустимо использовать для реализации только "+" и "-",
-    - Ввод значений происходит через терминал.
-    - Необходимо сохранять историю (ввод/вывод).
-    - Копирование в буфер обмена по клавишам ctrl+c результата вычислений
-    - Обработка ошибок и вывод в человеко-читаемом формате
-    - Результат вычислений должен иметь погрешность:
-      - при int <= 0.5%.
-      - при float <= 5%.
-
+  * Requirements:
+    - Python 3.9
+    - No external or standard computational libraries allowed (including built-in modules like `decimal` or `math`).
+    - Only `+` and `-` allowed in arithmetic implementation.
+    - Terminal input/output.
+    - Preserving history (input/output).
+    - Copying result to clipboard via Ctrl+C.
+    - Human-readable error handling.
+    - Margin of error:
+      - integer results: <= 0.5%.
+      - float results: <= 5%.
 
   </details>  
   
-  [Решение](https://github.com/Hunteena/calculator) 
+  [Solution](https://github.com/Hunteena/calculator) 
 
 
 * **Simple RESTful API for a social networking application**  
@@ -182,91 +183,95 @@
   
   [Solution](https://github.com/Hunteena/simple_social_network) 
 
-* **Тестовое задание с ипользованием библиотеки Pandas**  
-  *Стек: Python 3.11, Pandas, Jupiter Notebook.*
-  
-  <details><summary>Задание</summary>  
 
-  Время на выполнение задания:
-  одни сутки (до 24ч) с момента получения задания и до момента отправки решения задания менеджеру в чат.
+* **Test Task Using Pandas**  
+  *Stack: Python 3.11, Pandas, Jupyter Notebook.*
   
-  * Найти тариф стоимости доставки для каждого склада
-  * Найти суммарное количество , суммарный доход , суммарный расход и суммарную прибыль для каждого товара (представить как таблицу со столбцами 'product', 'quantity', 'income', 'expenses', 'profit')
-  * Составить табличку со столбцами 'order_id' (id заказа) и 'order_profit' (прибыль полученная с заказа). А также вывести среднюю прибыль заказов
-  * Составить табличку типа 'warehouse_name' , 'product','quantity', 'profit', 'percent_profit_product_of_warehouse' (процент прибыли продукта заказанного из определенного склада к прибыли этого склада)
-  * Взять предыдущую табличку и отсортировать 'percent_profit_product_of_warehouse' по убыванию, после посчитать накопленный процент. Накопленный процент - это новый столбец в этой табличке, который должен называться 'accumulated_percent_profit_product_of_warehouse'. По своей сути это постоянно растущая сумма отсортированного по убыванию столбца 'percent_profit_product_of_warehouse'.
-  * Присвоить A,B,C - категории на основании значения накопленного процента ('accumulated_percent_profit_product_of_warehouse'). Если значение накопленного процента меньше или равно 70, то категория A.  
-Если от 70 до 90 (включая 90), то категория Б. Остальное - категория C. Новый столбец обозначить в таблице как 'category'
+  <details><summary>Task Description</summary>  
 
-  <details><summary>Объяснение полей</summary>
+  Time limit: 24 hours from assignment receipt to submission.
+  
+  * Calculate delivery shipping rates for each warehouse.
+  * Compute total quantity, total income, total expenses, and total profit for each product (formatted as a table with columns: 'product', 'quantity', 'income', 'expenses', 'profit').
+  * Generate a table with columns 'order_id' and 'order_profit', and calculate average order profit.
+  * Generate a table with columns 'warehouse_name', 'product', 'quantity', 'profit', 'percent_profit_product_of_warehouse' (share of product profit ordered from a specific warehouse relative to that warehouse's total profit).
+  * Sort the previous table by 'percent_profit_product_of_warehouse' descending, then compute the cumulative percentage in a new column 'accumulated_percent_profit_product_of_warehouse'.
+  * Assign A, B, C categories based on the cumulative percentage ('accumulated_percent_profit_product_of_warehouse'):
+    - <= 70: Category A.
+    - 70 to 90 (inclusive): Category B.
+    - Remaining: Category C.
+    Add this column as 'category'.
+
+  <details><summary>Field Definitions</summary>
    
     ```python
     {
-    "order_id": 85787,	# уникальный id заказа  ( int, варьируется в пределах (100, 100000))
-    "warehouse_name": "хутор близ Диканьки",	# склад откуда отправился заказ (str)
-    "highway_cost": -90,	# стоимость доставки заказа (суммарная стоимости доставки всех продуктов) (int)
-    "products": [		# продукты входящие в заказ
+    "order_id": 85787,	# unique order ID (int, ranges between 100 and 100000)
+    "warehouse_name": "хутор близ Диканьки",	# warehouse name from which order was shipped (str)
+    "highway_cost": -90,	# total shipping cost of the order (sum of shipping costs for all products) (int)
+    "products": [		# products in the order
     {
-    "product": "зеленая пластинка",		# наименования продукта (str)
-    "price": 10,	# цена продажи за единицу товара	(int)
-    "quantity": 3	# количество проданного товара	(int)
+    "product": "зеленая пластинка",		# product name (str)
+    "price": 10,	# unit sale price (int)
+    "quantity": 3	# quantity sold (int)
     },
     {
-    "product": "зеленая пластинка",	# наименования продукта (str)
-    "price": 10,	# цена продажи за единицу товара	(int)
-    "quantity": 2	# количество проданного товара (int)
+    "product": "зеленая пластинка",	# product name (str)
+    "price": 10,	# unit sale price (int)
+    "quantity": 2	# quantity sold (int)
     },
     {
-    "product": "билет в Израиль",	# наименования продукта (str)
-    "price": 1000,	# цена продажи за единицу товара	(int)
-    "quantity": 1	# количество проданного товара (int)
+    "product": "билет в Израиль",	# product name (str)
+    "price": 1000,	# unit sale price (int)
+    "quantity": 1	# quantity sold (int)
     }
     ]
     },
     ```
   </details>
-  <details><summary>Объяснение highway_cost (стоимости доставки)</summary>  
+  <details><summary>Delivery Cost (highway_cost) Explanation</summary>  
    
-    Когда заказ доставляется из склада, то списывается стоимость доставки. У каждого склада есть определенный тариф, определяющий стоимость доставки. Это тариф имеет размерность стоимость доставки на единицу товара.  
-    Например для склада "гиперборея" стоимость тарифа составляет 20 рублей на единицу товара.
-    Причем тариф не зависит от того какой именно товар мы заказали. Так, если мы заказали 5 зеленых пластинок и 3 билета в Израиль, то стоимость тарифа будет 20*(5+3) = 160 рублей.
+    When an order is shipped from a warehouse, shipping costs apply. Each warehouse has a specific rate per product unit.  
+    For instance, warehouse "гиперборея" has a rate of 20 rubles per product unit.  
+    The rate does not depend on the specific product item. For example, for 5 green records and 3 tickets to Israel, the shipping cost is 20 * (5 + 3) = 160 rubles.
   </details>
-  <details><summary>Уточнение по виду отчета</summary>  
+  <details><summary>Report Format Clarification</summary>  
    
-    В поле "products" не обязательно могут быть только уникальные значения наименовая товаров ("product"). Иногда (как в примере выше) названия товаров могут повторяться в поле "products".  
-    Однако поле "products" не может быть пустым
+    The "products" list does not necessarily contain unique product names ("product"). Sometimes (as in the example above), product names can repeat in "products".  
+    However, "products" cannot be empty.
   </details>
-  <details><summary>Дополнительное пояснение</summary>  
+  <details><summary>Additional Details</summary>  
    
-    доходом с товара является цена продажи * количество товара  
-    расходом является тариф для данного склада * количество товара  
-    прибылью является доход - расход
+    product income = unit price * quantity  
+    product expense = warehouse shipping rate * quantity  
+    product profit = income - expense
   </details> 
   
   </details>  
   
-  [Решение](https://github.com/Hunteena/pandas/blob/main/Pandas.ipynb)  
+  [Solution](https://github.com/Hunteena/pandas/blob/main/Pandas.ipynb)  
 
-* **Поиск пути между страницами Википедии**  
-  *Стек: Python 3.11, requests, beautiful soup, Wiki API.*
-  
-  <details><summary>Задание</summary>  
 
-  * входные данные: 2 ссылки на wikipedia (можно из файла, можно из консоли вводить)
-  * ссылки за пределами wikipedia путем не считаются
-  * вручную от одной страницы до второй можно дойти за 3 клика
-  * необходимо показать полный путь как пройти от ссылки 1 до ссылки 2
-  * отображение пути должно для каждого шага содержать текст (полное предложение, в котором эта ссылка найдена) и ссылку на следующую страницу
-  * отображать это можно как в консоли, так и в web
-  * дополнительно можно вести лог файл со всеми страницами, что были посещены при поиске
+* **Shortest Path Search Between Wikipedia Pages**  
+  *Stack: Python 3.11, requests, Beautiful Soup, Wiki API.*
   
-    <details><summary>Пример работы</summary>  
+  <details><summary>Task Description</summary>  
+
+  * Input: 2 Wikipedia URLs (from file or console input).
+  * External links outside Wikipedia are not considered valid paths.
+  * The second page is reachable from the first in 3 clicks manually.
+  * Output the complete path from URL 1 to URL 2.
+  * Each step should display text (the full sentence containing the link) and the URL of the next page.
+  * Display in console or web interface.
+  * Optional: maintain a log file of all pages visited during the search.
   
-    исходные ссылки:  
-    стартовая - https://ru.wikipedia.org/wiki/Xbox_360_S  
-    конечная - https://ru.wikipedia.org/wiki/Nintendo_3DS
+    <details><summary>Sample Output</summary>  
   
-    ожидаемый вывод:
+    Initial URLs:  
+    Start — https://ru.wikipedia.org/wiki/Xbox_360_S  
+    Target — https://ru.wikipedia.org/wiki/Nintendo_3DS  
+  
+    Expected output:
     ```
     1------------------------  
     И 15 июня 2010 года Microsoft подтвердили их на выставке E³, объявив о прекращении производства старых версий Xbox 360 и скором старте продаж усовершенствованной версии консоли.
@@ -279,120 +284,118 @@
     https://ru.wikipedia.org/wiki/Nintendo_3DS  
     ```
   
-    результат работы:
-    github + readme файл с описание логики
-    либо файл скрипта + readme файл с описание логики
+    Deliverable:
+    GitHub repository + README with architecture/logic explanation, or script file + README.
     </details>
 
   </details>  
 
-  [Решение](https://github.com/Hunteena/wikipath)  
+  [Solution](https://github.com/Hunteena/wikipath)  
 
 
-* **Тестовое задание по графовым базам данных**  
-  *Стек: Neo4j, cypher, Jupiter Notebook, Flask.*
+* **Graph Database Coding Challenge**  
+  *Stack: Neo4j, Cypher, Jupyter Notebook, Flask.*
   
-  <details><summary>Задание</summary>  
+  <details><summary>Task Description</summary>  
 
-  * Установить графовую базу из списка https://db-engines.com/en/ranking/graph+dbms  
-     * Предпочтительные - neo4j, nebula, arangodb
-     * Предпочтительный язык запросов - cypher  
-  * Создать ipynb ноутбук, в котором:
-  * Считать данные из источника https://disk.yandex.ru/d/s6wWqd8Ol_5IvQ
-  * Внести данные из таблицы в графовую БД
-  * Построить графовое представление в БД, осуществить несколько запросов на языке запросов к графовой БД
-  * Найти взаимосвязи визуально и с помощью алгоритмов (алгоритмы на ваше усмотрение)
-  * Написать rest сервис на python к графовой БД в котором на вход поступает ФИО, на выходе graphml или json
-  * Результаты представить на гитхаб и в виде кода + небольшой презентации
-  * Срок выполнения задания - около 10 дней, если вы не успеваете можете взять больше времени
+  * Install a graph database from https://db-engines.com/en/ranking/graph+dbms  
+     * Preferred: Neo4j, Nebula, ArangoDB
+     * Preferred query language: Cypher  
+  * Create a `.ipynb` notebook to:
+    * Ingest data from source: https://disk.yandex.ru/d/s6wWqd8Ol_5IvQ
+    * Import data from table into the graph database
+    * Construct graph representation in the database, run queries in graph query language
+    * Identify visual and algorithmic relationships (algorithms of your choice)
+    * Build a Python REST service for the graph database that accepts a full name (input) and returns GraphML or JSON
+    * Present results on GitHub with code + short presentation
+    * Timeline: ~10 days.
 
   </details>  
   
-  [Решение](https://github.com/Hunteena/neo4j)  
+  [Solution](https://github.com/Hunteena/neo4j)  
 
 </details>
 
 
-### Учебные проекты в Нетологии
+### Educational Projects at Netology
 
 <details>
 
-<summary>Развернуть</summary>
+<summary>Expand</summary>
 
-* **Направление «Программирование»**  
+* **Programming Track**  
 
-  * **API сервиса заказа товаров для розничных сетей**  
-    *Стек: Django/DRF, Pytest, Swagger, PostgreSQL, Celery, Docker, Git/GitHub.*  
-    [Ссылка на репозиторий](https://github.com/Hunteena/python-final-diplom)  
-    <details><summary>Подробнее</summary>
-    REST API (backend) сервиса для автоматизации закупок в розничной сети с товарами от нескольких поставщиков.
+  * **Retail Chain Order Service API**  
+    *Stack: Django/DRF, Pytest, Swagger, PostgreSQL, Celery, Docker, Git/GitHub.*  
+    [Repository Link](https://github.com/Hunteena/python-final-diplom)  
+    <details><summary>Details</summary>
+    REST API (backend) for automating procurement in a retail chain with goods from multiple suppliers.
     </details>
   
-  * **API сайта объявлений**  
-    *Стек: Flask, SQLAlchemy, Celery, PostgreSQL, Docker, Git/GitHub.*  
-    [Ссылка на репозиторий](https://github.com/Hunteena/hw_celery)  
-    <details><summary>Подробнее</summary>
-    REST API (backend) сайта объявлений с авторизацией пользователей и возможностью почтовой рассылки.
+  * **Classifieds Website API**  
+    *Stack: Flask, SQLAlchemy, Celery, PostgreSQL, Docker, Git/GitHub.*  
+    [Repository Link](https://github.com/Hunteena/hw_celery)  
+    <details><summary>Details</summary>
+    REST API (backend) for a classified ads website featuring user authentication and email newsletters.
     </details>
   
   * **Star Wars & Asyncio**  
-    *Стек: Asyncio, SQLAlchemy, PostgreSQL, Git/GitHub.*  
-    [Ссылка на репозиторий](https://github.com/Hunteena/hw_asyncio)  
-    <details><summary>Подробнее</summary>
-    Асинхронная выгрузка из Star Wars API персонажей Start Wars и их асинхронная загрузка в базу данных.
+    *Stack: Asyncio, SQLAlchemy, PostgreSQL, Git/GitHub.*  
+    [Repository Link](https://github.com/Hunteena/hw_asyncio)  
+    <details><summary>Details</summary>
+    Asynchronous extraction of Star Wars characters from Star Wars API (SWAPI) and asynchronous loading into a PostgreSQL database.
     </details>
   
   
-* **Направление «Аналитика»**  
+* **Analytics Track**  
 
-  * **Итоговый проект курса DWH (Data Warehouse)**  
-    *Стек: SQL, PostgreSQL, DBeaver, Pentaho, Git/GitHub.*  
-    [Ссылка на репозиторий](https://github.com/Hunteena/DWH_project), [описание базы данных](https://edu.postgrespro.ru/bookings.pdf)  
-    <details><summary>Подробнее</summary>
-    Создание таблицы измерений и таблицы фактов на основе базы данных.
+  * **DWH (Data Warehouse) Capstone Project**  
+    *Stack: SQL, PostgreSQL, DBeaver, Pentaho, Git/GitHub.*  
+    [Repository Link](https://github.com/Hunteena/DWH_project), [Database Description](https://edu.postgrespro.ru/bookings.pdf)  
+    <details><summary>Details</summary>
+    Building dimension and fact tables based on a relational database.
     </details>
   
-  * **Проектная работа по модулю “SQL и получение данных”**  
-    *Стек: SQL, PostgreSQL, DBeaver.*  
-    [Описание базы данных](https://drive.google.com/file/d/1-4Ue94fEosxeunO7tGl6KId7WvrB0rpc/view?usp=sharing), 
-    [SQL-запросы](https://drive.google.com/file/d/1eAVfYyq3DnraQNiNHgCP3r2D9-O8O6tc/view?usp=sharing)  
-    <details><summary>Подробнее</summary>
-    Получение информации из базы данных об авиаперелётах с помощью SQL-запросов разного уровня сложности (подзапросы, CTE / обобщённые табличные выражения, материализованные представления).
+  * **"SQL and Data Retrieval" Module Project**  
+    *Stack: SQL, PostgreSQL, DBeaver.*  
+    [Database Description](https://drive.google.com/file/d/1-4Ue94fEosxeunO7tGl6KId7WvrB0rpc/view?usp=sharing), 
+    [SQL Queries](https://drive.google.com/file/d/1eAVfYyq3DnraQNiNHgCP3r2D9-O8O6tc/view?usp=sharing)  
+    <details><summary>Details</summary>
+    Retrieving flight and airline data using advanced SQL queries (subqueries, CTEs / Common Table Expressions, materialized views).
     </details>
 
 </details>
 
-## Дипломы и сертификаты
+## Diplomas and Certifications
 
-- **Python-разработчик с нуля** (программа курса по [ссылке](https://netology.ru/programs/python)), 
-диплом о профессиональной переподготовке <!-- ([ссылка]()). -->  
-_2022, ООО “Нетология”_
+- **Python Developer from Scratch** (Curriculum [link](https://netology.ru/programs/python)), 
+Professional Retraining Diploma <!-- ([link]()). -->  
+_2022, Netology LLC_
 
-- **Rest API (Intermediate) Certificate** ([ссылка](https://www.hackerrank.com/certificates/a7b31380e4b7))  
+- **Rest API (Intermediate) Certificate** ([link](https://www.hackerrank.com/certificates/a7b31380e4b7))  
 _2022, HackerRank_  
 
-- **ETL-разработчик** (программа курса по [ссылке](https://netology.ru/programs/etl-developer)), 
-удостоверение о повышении квалификации <!-- ([ссылка](https://drive.google.com/file/d/143MDuKVVKvtsMMb3BpjRCVDtKbibAxMW/view?usp=sharing)). -->    
-_2022, ООО “Нетология”_  
+- **ETL Developer** (Curriculum [link](https://netology.ru/programs/etl-developer)), 
+Professional Development Certificate <!-- ([link](https://drive.google.com/file/d/143MDuKVVKvtsMMb3BpjRCVDtKbibAxMW/view?usp=sharing)). -->    
+_2022, Netology LLC_  
 
-- **SQL (Basic) Certificate** ([ссылка](https://www.hackerrank.com/certificates/86b9fdaa561d))  
+- **SQL (Basic) Certificate** ([link](https://www.hackerrank.com/certificates/86b9fdaa561d))  
 _2021, HackerRank_  
 
-- **Learning How to Learn: Powerful mental tools to help you master tough subjects** (программа курса по [ссылке](https://www.coursera.org/learn/learning-how-to-learn)), 
-сертификат ([ссылка](https://coursera.org/share/6ad6ccaa3354d6a5c77482103b825986))  
+- **Learning How to Learn: Powerful mental tools to help you master tough subjects** (Curriculum [link](https://www.coursera.org/learn/learning-how-to-learn)), 
+Certificate ([link](https://coursera.org/share/6ad6ccaa3354d6a5c77482103b825986))  
 _2021, Coursera Inc, Deep Teaching Solutions_  
 
-- **Machine Learning** (программа курса по [ссылке](https://www.coursera.org/learn/machine-learning)), 
-сертификат ([ссылка](https://coursera.org/share/472683d93961060ca12f2666f6568306))  
+- **Machine Learning** (Curriculum [link](https://www.coursera.org/learn/machine-learning)), 
+Certificate ([link](https://coursera.org/share/472683d93961060ca12f2666f6568306))  
 _2018, Coursera Inc, Stanford University_
 
 
-## Достижения
+## Achievements
 
-- Прошла в финал Кубка Яндекса по программированию 2022 (Алгоритмы: Марафон)
+- Finalist in Yandex Programming Cup 2022 (Algorithms: Marathon)
 
-## Контакты: 
+## Contacts: 
 
-- email: nina.speranskaya35@gmail.com
+- Email: nina.speranskaya35@gmail.com
 - Telegram: [@Hunteena](https://t.me/Hunteena)
-
